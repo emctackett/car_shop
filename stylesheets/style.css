@@ -1,0 +1,79 @@
+@import url('reset.css');
+
+body {
+  color: #232C33;
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+header {
+  background: #230C33;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  color: #fff;
+  height: 100px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+label {
+  color: #fff;
+}
+
+select, button {
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #230C33;
+  height: 20px;
+  width: 55px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+button {
+  margin-left: 25px;
+}
+
+main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+div.car {
+  display: inline-block;
+  text-align: left;
+  width: 200px;
+  margin: 15px;
+}
+
+figure {
+  display: inline-block;
+}
+
+figure img {
+  height: auto;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+p {
+  margin: 5px 0;
+}
+
+p + p {
+  margin-bottom : 10px;
+}
+
+a {
+  background: #5A7D7C;
+  border-radius: 3px;
+  color: #fff;
+  padding: 5px 8px;
+  text-decoration: none;
+}
